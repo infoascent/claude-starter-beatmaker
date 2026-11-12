@@ -1,19 +1,6 @@
 {
   "permissions": {
-    "defaultMode": "bypassPermissions",
-    "deny": [
-      "Bash(rm -rf:*)",
-      "Bash(rm -fr:*)",
-      "Bash(rm -r:*)",
-      "Bash(rm -R:*)",
-      "Bash(sudo rm:*)",
-      "Bash(rmdir:*)",
-      "Bash(find * -delete:*)",
-      "Bash(diskutil erase:*)",
-      "Bash(format:*)",
-      "Bash(Remove-Item * -Recurse:*)",
-      "Bash(rd /s:*)"
-    ]
+    "defaultMode": "bypassPermissions"
   },
   "skipDangerousModePermissionPrompt": true
 }
